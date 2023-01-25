@@ -6,7 +6,7 @@ import DetailButton from './DetailButton';
 const Home = (props) => {
   return (
   <div className="jumbotron">
-    <h1 className="display-2 text-capitalize"><b>Bolex</b></h1>
+    <h1 className="display-2 text-capitalize"><b>Styme</b></h1>
     <p className="lead">You're in good hands on our watch</p>
     <hr className="my-3"/>
     <Link to="/products">

@@ -16,8 +16,8 @@ function App() {
         <Route exact path="/watch-e-commerce/" component={Home} />
         <Route exact path="/" component={Home} />
         <Route exact path="/products" component={ProductList} />
-        {/* <Route exact path="/details" component={Details} />
-        <Route path="/cart" component={Cart} /> */}
+        <Route exact path="/details" component={Details} />
+        <Route path="/cart" component={Cart} />
         <Route component={Error} />
       </Switch>
       <Modal />

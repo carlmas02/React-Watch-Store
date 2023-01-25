@@ -5,7 +5,7 @@ const Navbar = (props) => {
   return (
   <nav className="navbar navbar-expand-md navbar-dark">
     <Link to="/" className="navbar-brand">
-      Bolex
+      Styme
     </Link>
     <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span className="navbar-toggler-icon"></span>
@@ -24,14 +24,14 @@ const Navbar = (props) => {
           </Link>
         </li>
       </ul>
-      {/* <Link to="/cart" className="ml-auto">
+      <Link to="/cart" className="ml-auto">
           <button className="btn">
             <span className="mr-2">
               <i className="fas fa-cart-plus " />
             </span>
             My Cart
           </button>
-      </Link> */}
+      </Link>
     </div>
   </nav>
   );
